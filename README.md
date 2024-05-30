@@ -22,8 +22,4 @@
 
 `docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-edition up -d`
 
-## restart
-
-`docker compose -f docker-compose.yml -p greenbone-community-edition up -d`
-
 ## enjoy!
