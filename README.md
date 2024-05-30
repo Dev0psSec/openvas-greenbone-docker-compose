@@ -20,7 +20,7 @@
 
 `    file: /etc/greenbone/cert/serverkey.pem`
 
-## run it
+## run it (on 9392 port)
 
 `docker compose -f $docker-compose.yml -p greenbone-community-edition up -d`
 
