@@ -20,6 +20,6 @@
 
 ## run it
 
-`docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-edition up -d`
+`docker compose -f $docker-compose.yml -p greenbone-community-edition up -d`
 
 ## enjoy!
