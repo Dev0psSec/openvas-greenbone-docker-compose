@@ -6,10 +6,6 @@
 
 `openssl req -x509 -newkey rsa:4096 -keyout serverkey.pem -out servercert.pem -nodes -subj '/CN=localhost' -addext 'subjectAltName = DNS:localhost' -days 31`
 
-## up it
-
-`docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-edition up -d`
-
 ## change the dir for your certs in the docker-compose file
 
 `secrets:`
@@ -21,6 +17,10 @@
 `  server-key:`
 
 `    file: /etc/greenbone/cert/serverkey.pem`
+
+## run it
+
+`docker compose -f $DOWNLOAD_DIR/docker-compose.yml -p greenbone-community-edition up -d`
 
 ## restart
 
