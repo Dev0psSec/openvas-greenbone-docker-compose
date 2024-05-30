@@ -1,4 +1,4 @@
-![alt](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiky2VU-AuvBnkohI4ekzVIDJwnrx8A_Ou0Q&s)
+![alt](https://linuxincluded.com/wp-content/uploads/openvas_setup.png)
 
 # Docker compose file for openvas greenbone with nginx providing extra tls layer
 
