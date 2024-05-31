@@ -4,7 +4,7 @@
 
 
 
-## generate the keys before 
+## generate the keys
 
 `openssl req -x509 -newkey rsa:4096 -keyout serverkey.pem -out servercert.pem -nodes -subj '/CN=localhost' -addext 'subjectAltName = DNS:localhost' -days 31`
 
