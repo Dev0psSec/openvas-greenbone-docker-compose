@@ -1,6 +1,6 @@
 ![alt](https://linuxincluded.com/wp-content/uploads/openvas_setup.png)
 
-# Docker compose file for openvas greenbone with nginx providing extra tls layer
+# Docker compose file for openvas greenbone with nginx providing https connection
 
 
 
